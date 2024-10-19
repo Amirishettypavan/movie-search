@@ -51,3 +51,15 @@
     font-size: 20px;
   }
 }
+@media  (max-width:400px){
+  .Navbar input{
+    width: 17%;
+    /* border:  2px solid red; */
+  }
+  .Navbar button{
+    font-size: 13px;
+  }
+  .Navbar h2{
+    font-size: 14px;
+  }
+}

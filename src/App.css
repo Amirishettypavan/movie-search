@@ -1,0 +1,53 @@
+.Navbar{
+  display: flex;
+  justify-content: space-around;
+  color: aliceblue;
+  background-color: gray;
+  height: 80px;
+  align-items: center;
+}
+.Navbar div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Navbar button{
+  margin-right: 5px;
+  background-color: gray;
+  color: aliceblue;
+  cursor: pointer;
+  border: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}
+.Navbar button:hover{
+  background-color:white;
+  color: black;
+}
+.Navbar input{
+  margin-right: 5px;
+}
+
+.movie{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+#bgimg{
+  opacity: 0.3;
+}
+
+
+@media  (max-width:650px){
+  .Navbar input{
+    width: 23%;
+    /* border:  2px solid red; */
+  }
+  .Navbar button{
+    font-size: 16px;
+  }
+  .Navbar h2{
+    font-size: 20px;
+  }
+}
